@@ -1,0 +1,55 @@
+﻿@using System.Security.Cryptography
+@rendermode InteractiveServer
+
+<Menu
+    Style="min-height: 100vh;"
+    Mode="MenuMode.Inline"
+    Theme="MenuTheme.Light">
+    <MenuItem Key="1">
+        <a href="/readers">
+            <Icon Type="user" Theme="outline"/>
+            Readers
+        </a>
+    </MenuItem>
+    <MenuItem Key="2">
+        <a href="/books">
+            <Icon Type="book" Theme="outline"/>
+            Books
+        </a>
+    </MenuItem>
+    <SubMenu Key="sub1" TitleTemplate="@weatherSubItem">
+        <MenuItem Key="3">
+            <a href="/what">
+                <Icon Type="book" Theme="outline"/>
+                Books
+            </a>
+        </MenuItem>
+        <MenuItem Key="4">
+            <a href="/ok">
+                <Icon Type="book" Theme="outline"/>
+                Books
+            </a>
+        </MenuItem>
+    </SubMenu>
+</Menu>
+
+@code
+{
+    RenderFragment weatherSubItem =
+        @<a href="/weather">
+            <Icon Type="appstore" Theme="outline"></Icon>
+            Weather
+        </a>;
+
+    RenderFragment readerSubItem =
+        @<a href="/readers">
+            <Icon Type="user" Theme="outline"></Icon>
+            Readers
+        </a>;
+
+    int count = 0;
+    private void Increment()
+    {
+        count++;
+    }
+}

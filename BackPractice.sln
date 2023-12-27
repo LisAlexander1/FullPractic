@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackPractice", "BackPractice\BackPractice.csproj", "{2F3D77DD-0448-498C-A144-17395AC5C79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontPractice", "FrontPractice\FrontPractice.csproj", "{2519476F-BD2D-49D8-9EE6-628BE90473CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F3D77DD-0448-498C-A144-17395AC5C79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3D77DD-0448-498C-A144-17395AC5C79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3D77DD-0448-498C-A144-17395AC5C79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3D77DD-0448-498C-A144-17395AC5C79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2519476F-BD2D-49D8-9EE6-628BE90473CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2519476F-BD2D-49D8-9EE6-628BE90473CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2519476F-BD2D-49D8-9EE6-628BE90473CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2519476F-BD2D-49D8-9EE6-628BE90473CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
